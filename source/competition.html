@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Приложение "Пинк"</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="../css/style.min.css">
 </head>
 
 <body class="page__body">
@@ -214,48 +214,54 @@
             <ul class="competition-form-list competition-form-list--achievements">
               <li class="competition-form__item competition-form__item--achievements-shark">
                 <label class="competition-form-labels" for="achievements-selfie-with-shark">
-                  <input class="competition-form-item__checkbox" type="checkbox" name="selfie-with-shark"
+                  <input class="visually-hidden control-input" type="checkbox" name="selfie-with-shark"
                     id="achievements-selfie-with-shark" value="Сделал селфи с акулой" checked>
+                    <span class="control-mark"></span>
                   <span class="competition-form__checkbox-labels">Сделал селфи с акулой</span>
                 </label>
               </li>
 
               <li class="competition-form__item competition-form__item--achievements-sunburned">
                 <label class="competition-form-labels" for="achievements-sunburned-on-the-beach">
-                  <input class="competition-form-item__checkbox" type="checkbox" name="sunburned-on-the-beach"
+                  <input class="visually-hidden control-input" type="checkbox" name="sunburned-on-the-beach"
                     id="achievements-sunburned-on-the-beach" value="Обгорел на пляже" checked>
+                    <span class="control-mark"></span>
                   <span class="competition-form__checkbox-labels">Обгорел на пляже</span>
                 </label>
               </li>
 
               <li class="competition-form__item competition-form__item--achievements-chuck">
                 <label class="competition-form-labels" for="achievements-saw-chuck-norris">
-                  <input class="competition-form-item__checkbox" type="checkbox" name="saw-chuck-norris"
+                  <input class="visually-hidden control-input" type="checkbox" name="saw-chuck-norris"
                     id="achievements-saw-chuck-norris" value="Видел Чака Норриса">
+                    <span class="control-mark"></span>
                   <span class="competition-form__checkbox-labels">Видел Чака Норриса</span>
                 </label>
               </li>
 
               <li class="competition-form__item competition-form__item--achievements-souvenirs">
                 <label class="competition-form-labels" for="achievements-bought-souvenirs">
-                  <input class="competition-form-item__checkbox" type="checkbox" name="bought-souvenirs"
+                  <input class="visually-hidden control-input" type="checkbox" name="bought-souvenirs"
                     id="achievements-bought-souvenirs" value="Накупил сувениров">
+                    <span class="control-mark"></span>
                   <span class="competition-form__checkbox-labels">Накупил сувениров</span>
                 </label>
               </li>
 
               <li class="competition-form__item competition-form__item--achievements-tower">
                 <label class="competition-form-labels" for="achievements-held-tower">
-                  <input class="competition-form-item__checkbox" type="checkbox" name="held-tower"
+                  <input class="visually-hidden control-input" type="checkbox" name="held-tower"
                     id="achievements-held-tower" value="Удержал башню" checked>
+                    <span class="control-mark"></span>
                   <span class="competition-form__checkbox-labels">Удержал башню</span>
                 </label>
               </li>
 
               <li class="competition-form__item competition-form__item--achievements-hotel">
                 <label class="competition-form-labels" for="achievements-smashed-hotel">
-                  <input class="competition-form-item__checkbox" type="checkbox" name="smashed-hotel"
+                  <input class="visually-hidden control-input" type="checkbox" name="smashed-hotel"
                     id="achievements-smashed-hotel" value="Разгромил отель">
+                    <span class="control-mark"></span>
                   <span class="competition-form__checkbox-labels">Разгромил отель</span>
                 </label>
               </li>
@@ -285,24 +291,27 @@
             <ul class="competition-form-list">
               <li class="competition-form__item">
                 <label class="competition-form-labels" for="with-os-ios">
-                  <input class="competition-form-item__checkbox" type="radio" name="os" id="with-os-ios"
+                  <input class="visually-hidden control-input" type="radio" name="os" id="with-os-ios"
                     value="Pink для iOS" checked>
+                  <span class="control-mark"></span>
                   <span class="competition-form__checkbox-labels">Pink для iOS</span>
                 </label>
               </li>
 
               <li class="competition-form__item">
                 <label class="competition-form-labels" for="with-os-android">
-                  <input class="competition-form-item__checkbox" type="radio" name="os" id="with-os-android"
+                  <input class="visually-hidden control-input" type="radio" name="os" id="with-os-android"
                     value="Pink на Android">
+                    <span class="control-mark"></span>
                   <span class="competition-form__checkbox-labels">Pink на Android</span>
                 </label>
               </li>
 
               <li class="competition-form__item">
                 <label class="competition-form-labels" for="with-os-windows">
-                  <input class="competition-form-item__checkbox" type="radio" name="os" id="with-os-windows"
+                  <input class="visually-hidden control-input" type="radio" name="os" id="with-os-windows"
                     value="Windows Phone">
+                    <span class="control-mark"></span>
                   <span class="competition-form__checkbox-labels">Windows Phone</span>
                 </label>
               </li>
@@ -311,7 +320,7 @@
 
           <fieldset class="competition-form__group competition-form__group--comment">
             <legend class="competition-form__group-legend">Опишите свои эмоции</legend>
-            <label class="competition-form-labels" for="comments"></label>
+            <label class="visually-hidden" for="comments"></label>
             <textarea class="competition-form__group-comment-field" name="comment" id="comments"
               placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
             </li>
@@ -380,7 +389,7 @@
       </div>
     </div>
   </footer>
-  <script src="./js/scripts.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>

@@ -20,13 +20,13 @@
   font-size: 18px;
   line-height: 18px;
   color: #d22856;
-  outline: 3px solid #d22856;
+  border: 3px solid #d22856;
   border-radius: 30px;
-  border: none;
   width: 280px;
   box-sizing: border-box;
   padding: 19px 90px;
   margin: 0 auto 12px auto;
+  background-color: transparent;
 
   &:hover {
     background-color: #d22856;
@@ -40,12 +40,13 @@
 
 .catalog-uploader__buttons-submit--cancel {
   color: rgba(40, 54, 69, 0.1);
-  outline: 3px solid rgba(40, 54, 69, 0.1);
+  border: 3px solid rgba(40, 54, 69, 0.1);
+  background-color: transparent;
 
   &:hover {
     color: rgba(40, 54, 69, 0.3);
-    outline: 3px solid rgba(40, 54, 69, 0.3);
-    background-color: #ffffff;
+    border-color: rgba(40, 54, 69, 0.3);
+    background-color: transparent;
   }
 
   &:active {
@@ -112,7 +113,6 @@
   }
 }
 
-
 .catalog-uploader-range-bar-toggle-crop {
   position: absolute;
   width: 14px;
@@ -171,6 +171,7 @@
   .catalog-uploader__buttons {
     grid-column: 2 / -1;
     margin-top: 72px;
+    margin-left: 47px;
   }
 
   .catalog-uploader__filters {

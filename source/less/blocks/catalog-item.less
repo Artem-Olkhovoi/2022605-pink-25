@@ -6,6 +6,7 @@
 .catalog-item--photo-of-day {
   width: 320px;
   position: relative;
+  margin-bottom: 20px;
 
   &::before {
     position: absolute;
@@ -91,7 +92,9 @@
     grid-row: 1 / -2;
   }
 
-  .catalog-item--photo-of-day .catalog-item__comment-container .catalog-item__comment-container-likes {
+  .catalog-item--photo-of-day
+    .catalog-item__comment-container
+    .catalog-item__comment-container-likes {
     margin-left: 180px;
 
     & p {
@@ -144,7 +147,13 @@
     box-sizing: border-box;
   }
 
-  .catalog-item--photo-of-day .catalog-item__comment-container .catalog-item__comment-container-likes {
+  .catalog-item__comment-container-likes {
+    justify-content: space-between;
+  }
+
+  .catalog-item--photo-of-day
+    .catalog-item__comment-container
+    .catalog-item__comment-container-likes {
     margin-left: 320px;
   }
 
@@ -155,5 +164,10 @@
   .catalog-item__comment-container {
     width: 300px;
     box-sizing: border-box;
+    padding: 30px 30px 30px 27px;
+  }
+
+  .catalog-item__likes-text {
+    margin: 0;
   }
 }
